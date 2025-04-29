@@ -15,44 +15,8 @@ export default function Home() {
         value={texto}
         onChangeText={setTexto}
       />
-
-      <Card
-        title="Barbie"
-        description="a Barbie é retratada como uma boneca loira, com um corpo elegante e proporções realistas, embora com alguma exageração para atender aos padrões estéticos."
-      >
-        <Image
-          source={{
-            uri: "https://i.pinimg.com/originals/a5/77/12/a5771224894365d648768471aebc2188.jpg",
-          }}
-          style={styles.image}
-        />
-      </Card>
-      
-      <Card
-        title="Spirit- O Corcel Indomável"
-        description="Spirit: O Corcel Indomável é um filme de animação de 2002, dirigido por Kelly Asbury e Lorna Cook. A história gira em torno de um cavalo selvagem chamado Spirit, que vive livre nas vastas planícies do Velho Oeste americano."
-      >
-        <Image
-          source={{
-            uri: "https://m.media-amazon.com/images/S/pv-target-images/9837c9cdb02d3981b7548bab7b26d34bff781c45178bb38001e03b867a1ab02f._SX1080_FMjpg_.jpg",
-          }}
-          style={styles.image}
-      />
-      </Card>
-
-      <Card
-        title="Crepúsculo"
-        description="Crepúsculo é um filme de romance e fantasia lançado em 2008, baseado no livro homônimo de Stephenie Meyer."
-        >
-        <Image
-          source={{
-            uri: "https://i.pinimg.com/originals/c4/8d/51/c48d51da76ee20abb95ea67a6a2fad4b.jpg",
-          }}  
-          style={styles.image}
-        />
-        </Card>
-    
     </View>
+    
   );
 }
 
@@ -80,19 +44,7 @@ const styles = StyleSheet.create({
       width: 0,
       height: 2,
     },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5,
-  },
-  cardTitle: {
-    fontSize: 24,
-    fontWeight: "bold",
-    marginBottom: 10,
-    color: "#000",
-  },
-  cardDescription: {  
-    fontSize: 16,
-    color: "#000",
+    
   },
   image: {
     width: "100%",

@@ -6,12 +6,12 @@ export default function Drawer2() {
         <View style={styles.container}>
             <Image
                 source={{
-                    uri: "https://pm1.aminoapps.com/6744/d488e8c29ce85b08fe896761d3d136bc02fd7340v2_00.jpg",
+                    uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5njZwgLbI1IQyt_0s7XMTXE1dpCaH4BFx1xtbrs_hOo2C0LHXVE86CLigSwzKlMab94g&usqp=CAU",
                 }}
                 style={styles.image}
             />
             <Text style={styles.text}>
-            Katerina Petrova é uma personagem fictícia da série de televisão The Vampire Diaries, interpretada por Nina Dobrev. Ela é uma vampira que tem um papel central na trama, sendo uma das principais antagonistas da série. Katerina é conhecida por sua beleza, inteligência e manipulação, além de ter um passado complexo que a liga a vários personagens principais. Sua história envolve amor, traição e busca por poder, tornando-a uma figura intrigante e multifacetada na narrativa da série.
+            Em um futuro apocalíptico, o jovem Thomas é escolhido para enfrentar o sistema. Ele acorda dentro de um escuro elevador em movimento e não consegue se lembrar nem de seu nome. Na comunidade isolada em que foi abandonado, Thomas conhece outros garotos que passaram pela mesma situação. Para conseguir escapar, ele precisa descobrir os sombrios segredos guardados em sua mente e correr muito.
             </Text>
         </View>
     );
