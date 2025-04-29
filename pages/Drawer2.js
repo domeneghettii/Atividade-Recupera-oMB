@@ -11,6 +11,7 @@ export default function Drawer2() {
                 style={styles.image}
             />
             <Text style={styles.text}>
+                Meu filme Preferido é "O corredor da morte".
             Em um futuro apocalíptico, o jovem Thomas é escolhido para enfrentar o sistema. Ele acorda dentro de um escuro elevador em movimento e não consegue se lembrar nem de seu nome. Na comunidade isolada em que foi abandonado, Thomas conhece outros garotos que passaram pela mesma situação. Para conseguir escapar, ele precisa descobrir os sombrios segredos guardados em sua mente e correr muito.
             </Text>
         </View>
